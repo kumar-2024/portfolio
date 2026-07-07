@@ -1,0 +1,299 @@
+body {
+       padding: 0px;
+       margin: 0px; 
+       background-color: rgba(135, 207, 235, 0.736);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 650px;
+    width: 100%;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+
+.box1 {
+    width: 100%;
+    height: 600px;
+    perspective: 1000px; /* Adds depth to the 3D effect */
+    /*background-color: rgb(135, 206, 235);*/
+    background-image:url("../image/back img1.jpg") ;
+    background-size: cover;
+}
+
+.image {
+    width: 400px;
+    height: 550px;
+    background: url("../image/my profile pic.jpg") no-repeat center/cover;
+    transform: rotateY(-30deg) rotateX(10deg); /* Side angle effect */
+    box-shadow: 0 15px 25px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    position: absolute;
+    bottom: 60px;  /* Align to the bottom */
+    right: 100px;   /* Align to the right */
+    border-radius: 100%;
+    
+}
+.intro{
+    width: 800px;
+    height: 500px;
+    font-size: 3rem;
+    
+    color: black;
+    transform: rotateY(30deg) rotateX(-10deg); /* Side angle effect */
+    box-shadow: 0 15px 25px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    position: absolute;
+    bottom: 60px;  /* Align to the bottom */
+    left: 150px;   /* Align to the right */
+    border-radius: 10px;
+    background-color: rgb(135,206,235);
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.logo{
+    height: 60px;
+    width:  60px;
+    background: url("../image/logo  F5.png") no-repeat center/cover;
+    background-color: rgb(0, 55, 255);
+    background-size: cover;
+    margin-left: 5px;
+
+}
+#dev{
+    font-size: 60%;
+    margin-top: 5px;
+}
+.intro:hover {
+    transform: rotateY(50deg) rotateX(-15deg);
+
+}
+
+.image:hover {
+    transform: rotateY(-50deg) rotateX(15deg); /* Slight hover effect */
+}
+.box2{
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 183, 255, 0.4);
+    perspective: 1000px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 3; /* तीन कॉलम */
+    column-gap: 20px; /* गैप */
+    column-rule: 1px solid gray; /* कॉलम के बीच में लाइन */
+    padding: 10px;
+}
+.name{
+    display: flex;
+    
+    
+}
+ul{
+    margin-right: 1px;
+}
+#name2{
+    display: flex;
+    justify-content: center ;
+    margin-right: 0px;
+}
+
+/*.Career {
+    height: 150px;
+    width: 300px;
+    margin-right: 20px;
+    box-shadow: 0 15px 25px rgb(0, 0, 0);
+    background-color: rgb(120, 228, 228);
+}*/
+.navbar {
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;  /* ✅ सिर्फ top padding */
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: rgb(8, 183, 252);
+    margin-top: 0;
+}
+
+.nav-links a {
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(9, 3, 61, 0.1);
+    transform: scale(1.05);
+    color: #0033aa;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 55, 255);
+    font-weight: bold;
+}
+.section {
+    padding: 3px 2px;
+    text-align: center;
+}
+.social-links{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.skill {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.project {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project:hover {
+    transform: scale(1.25);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.footpath {
+    background-image: url("../image/footpath.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.currency {
+    background-image: url("../image/currency.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.portfolio {
+    background-image: url("../image/portfolio.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.amazon {
+    background-image: url("../image/amazon.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.game {
+    background-image: url("../image/game.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+footer p {
+    margin: 0;
+}
