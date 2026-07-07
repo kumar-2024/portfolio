@@ -19,14 +19,14 @@ body {
     height: 600px;
     perspective: 1000px; /* Adds depth to the 3D effect */
     /*background-color: rgb(135, 206, 235);*/
-    background-image:url("../image/back img1.jpg") ;
+    background-image:url("image/back img1.jpg") ;
     background-size: cover;
 }
 
 .image {
     width: 400px;
     height: 550px;
-    background: url("../image/my profile pic.jpg") no-repeat center/cover;
+    background: url("image/my profile pic.jpg") no-repeat center/cover;
     transform: rotateY(-30deg) rotateX(10deg); /* Side angle effect */
     box-shadow: 0 15px 25px rgb(0, 0, 0);
     transition: transform 0.3s ease;
@@ -56,7 +56,7 @@ body {
 .logo{
     height: 60px;
     width:  60px;
-    background: url("../image/logo  F5.png") no-repeat center/cover;
+    background: url("image/logo  F5.png") no-repeat center/cover;
     background-color: rgb(0, 55, 255);
     background-size: cover;
     margin-left: 5px;
@@ -164,12 +164,9 @@ ul{
 
 .skills-container {
     display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    gap: 0.5rem;
-    max-width: 500px;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .skill {
@@ -201,7 +198,7 @@ ul{
 
 
 .footpath {
-    background-image: url("../image/footpath.png");
+    background-image: url("image/footpath.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -212,7 +209,7 @@ ul{
 }
 
 .currency {
-    background-image: url("../image/currency.png");
+    background-image: url("image/currency.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -222,7 +219,7 @@ ul{
     background-color: rgba(0, 0, 0, 0.3);
 }
 .portfolio {
-    background-image: url("../image/portfolio.png");
+    background-image: url("image/portfolio.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -233,7 +230,7 @@ ul{
 }
 
 .amazon {
-    background-image: url("../image/amazon.png");
+    background-image: url("image/amazon.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -244,7 +241,7 @@ ul{
 }
 
 .game {
-    background-image: url("../image/game.png");
+    background-image: url("image/game.png");
     background-size: cover;
     background-position: center;
     color: white;
