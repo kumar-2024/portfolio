@@ -163,18 +163,26 @@ ul{
 }
 
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+    display: flex !important;
+    flex-direction: column !important;
+    list-style: none;
+    padding: 0;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 1.5rem auto;
+    align-items: stretch;
 }
 
-.skill {
-    padding: 1rem 2rem;
+.skills-container li {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem;
     background-color: #007bff;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
+    text-align: left;
+    box-sizing: border-box;
 }
 
 .project {
@@ -229,8 +237,8 @@ ul{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.amazon {
-    background-image: url("image/amazon.png");
+.game {
+    background-image: url("image/game.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -240,8 +248,8 @@ ul{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.game {
-    background-image: url("image/game.png");
+.ourtrip {
+    background-image: url("image/ourtrip.png");
     background-size: cover;
     background-position: center;
     color: white;
