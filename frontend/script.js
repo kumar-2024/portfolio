@@ -1,7 +1,7 @@
 // script.js
 
 // Backend API base URL - deploy ke time isko apne server ke URL se replace karo
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://portfolio-backend-qu2e.onrender.com";
 
 // Highlight nav link on scroll
 window.addEventListener('scroll', () => {
